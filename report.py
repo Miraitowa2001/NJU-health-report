@@ -44,7 +44,7 @@ def apply(curr_location, logger, auth: NjuUiaAuth, covidTestMethod='YESTERDAY', 
             'JRSKMYS': 1,  # 今日苏康码颜色
             'IS_HAS_JKQK': 1,  # 健康情况
             'JZRJRSKMYS': 1,  # 居住人今日苏康码颜色
-            'SFZJLN': 0
+            'SFZJLN': 1
         }
         headers = {
             'referer': URL_JDKD_INDEX,  # required since 2022/4/20
